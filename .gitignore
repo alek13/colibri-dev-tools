@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+Thumbs.db
+
+/cache
+/config
+/conroller
+/database
+/log
+/pattern
+/routine
+/util
+/validation
+/view

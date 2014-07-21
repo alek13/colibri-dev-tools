@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for repo in * ; do
+	if [ -d $repo ]; then
+		echo -e "\033[1;4;45mColibri FW / $repo\033[0m"
+		cd $repo;
+		eval $1;
+		echo;
+		cd ..;
+	fi;
+done
